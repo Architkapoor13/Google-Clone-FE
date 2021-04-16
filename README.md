@@ -1,4 +1,4 @@
-#Google Search (Google clone Front End)
+# Google Search (Google clone Front End)
 This is a project related to [CS50W](https://cs50.harvard.edu/web/2020/) Project 1(Search)
 
 It works exactly like the google search!
