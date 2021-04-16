@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div style="text-align:right; background-color:#F5F5F5;" class="div1">
+            <a href="index.html">
+                <img src="googlelogo_color_272x92dp.png" alt="google-image" height="30px" width="90px" style="float:left;">
+            </a>
+            <a href="index.html" class="link">Google Search</a>
+            
+        </div>
+        <div class="div3">
+            <h4>Advanced Search</h4>
+        </div>
+        <div class="adv-div1">
+            <div class="div11" style="margin-top:45px; margin-left:45px;">
+                Find pages with...
+            </div>
+            <div class="div12" style="margin-top:45px; width:570px;">
+    
+            </div>
+            <div class="div13 text3" style="margin-top:45px;">
+                <b>To do this in the search box.</b>
+            </div>
+        </div>
+        <form action="https://www.google.com/search">
+            <div class="adv-div1">
+                <div class="div11 text1">
+                    all these words:
+                </div>
+                <div class="div12">
+                    <input type="text" name="as_q" value class="adv-input">
+                </div>
+                <div class="div13 text2">
+                    Type the important words:
+                    <span style="font-family: monospace;">
+                        tri-colour rat terrier
+                    </span>
+                </div>
+            </div>
+            <div class="adv-div1">
+                <div class="div11 text1">
+                    this exact word or phrase:
+                </div>
+                <div class="div12">
+                    <input type="text" name="as_epq" value class="adv-input">
+                </div>
+                <div class="div13 text2">
+                    Put exact words in quotes:
+                    <span style="font-family:monospace;">
+                        "rat terrier"
+                    </span>
+                </div>
+            </div>
+            <div class="adv-div1">
+                <div class="div11 text1">
+                    any of these words:
+                </div>
+                <div class="div12">
+                    <input type="text" name="as_oq" class="adv-input" value>
+                </div>
+                <div class="div13 text2" style="padding-top:0px;" >
+                    Type OR between all the words you want:
+                    <span style="font-family:monospace;">    
+                        miniature OR standard
+                    </span>
+                </div>
+            </div>
+            <div class="adv-div1">
+                <div class="div11  text1">
+                    none of these words:
+                </div>
+                <div class="div12">
+                    <input type="text" name="as_eq" value class="adv-input">
+                </div>
+                <div class="div13 text2" style="padding-top:0px;">
+                    Put a minus sign just before words that you don't want:
+                    <span style="font-family: monospace;">
+                        -rodent, -"Jack Russell"
+                    </span>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-primary" type="submit" style="margin-left:645px; margin-top:20px;">Advanced Search</button>
+            </div>
+        </form>
+        
+    </body>
+    <footer >
+        Project0 CS50W
+    </footer>
+</html>
